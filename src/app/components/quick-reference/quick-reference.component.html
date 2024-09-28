@@ -1,0 +1,29 @@
+<div class="accordion">
+    <div *ngFor="let challenge of codingChallenge; let i=index" class="panel">
+        <div class="panel-header" (click)="toggleChallenge(i)">
+            <h3> {{ challenge.title }}</h3>
+        </div>
+
+        <ng-container *ngIf="activeIndex == i && challenge.isOpen">
+            <ng-container *ngTemplateOutlet="palindrome"></ng-container>
+        </ng-container>
+    </div>
+
+    <ng-template #palindrome>
+        <div class="palindrome-template">
+            <input placeholder="Enter a string" [(ngModel)]="inputString" />
+            <button (click)="isPalindrome()">Test</button>
+
+            <p>{{ispalindrome}}</p>
+        </div>
+    </ng-template>
+
+    <ng-template #2>
+        <div class="fibonacci-template">
+            <input placeholder="Enter a number" [(ngModel)]="inputString" />
+            <button (click)="calcFibonacci()">Test</button>
+
+            <p>{{fibonacci}}</p>
+        </div>
+    </ng-template>
+</div>

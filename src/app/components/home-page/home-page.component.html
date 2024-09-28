@@ -1,0 +1,25 @@
+<div class="flex-container">
+    <div class="left-panel">
+        <div *ngFor="let book of trendingBooks">
+            
+            <!-- @if(book.image){
+                <img src="{{book.image}}">
+            } -->
+            <h3 class="title">{{book.title}}</h3>
+            <p class="author">{{book.author}}</p>
+        </div>
+    </div>
+    <div class="right-panel">
+        <div class="search">
+            <input id="search" placeholder="Search Book" (input)="onSearch()" [formControl]="searchQuery" autocomplete="off" />
+            <button name="search">Search</button>
+            <ul *ngIf="filteredBooks.length > 0" class="typeahead">
+                <li *ngFor="let book of filteredBooks" class="typeahead-item"> {{book.title}}</li>
+            </ul>
+        </div>
+        <div class="quick-reference">
+            <h3> Quick Referece</h3>
+            <app-quick-reference></app-quick-reference>
+        </div>
+    </div>
+</div>

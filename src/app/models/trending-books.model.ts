@@ -1,7 +1,8 @@
-export interface trendingBooks {
+export interface trendingBooksList {
     id: number;
-    name: string;
+    title: string;
     author: string;
+    genre: string;
+    rating?: number;
     image: string;
-    rating: number;
 }

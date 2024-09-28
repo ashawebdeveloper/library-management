@@ -1,0 +1,69 @@
+img {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+.title{
+    display: inline-block;
+    margin: 0;
+}
+.author {
+    font-style: italic;
+}
+.flex-container{
+    display: flex;
+    border: 1px solid #ccc;
+}
+.left-panel {
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ccc;
+    width: 20%;
+    overflow: scroll;
+}
+.right-panel {
+    display: flex;
+    background-color: #e9ecef;
+    width: 80%;
+}
+.search {
+    width: 50%;
+    padding: 10px; /* Same padding for input and suggestions */
+    border: 1px solid #ccc; /* Same border for both */
+    border-radius: 4px; /* Same border radius */
+    font-size: 16px; /* Font size */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: border-color 0.3s; /* Smooth transition on focus */
+}
+.search:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+.typeahead {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0 0;
+    border: 1px solid #ccc; /* Match input border */
+    border-radius: 4px; /* Match input border radius */
+    max-height: 150px;
+    overflow-y: auto; /* Scroll if necessary */
+    background-color: white; /* Match background color */
+    position: absolute;
+    width: 15%;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Same shadow as input */
+}
+.typeahead-item{
+    padding: 10px; /* Same padding as input */
+    cursor: pointer;
+    font-size: 16px; /* Match font size */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+.quick-reference{
+    width: 80%;
+    padding: 20px;
+}

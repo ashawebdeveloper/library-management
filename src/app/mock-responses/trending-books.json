@@ -1,0 +1,68 @@
+{
+    "trendingbooks": [
+        {
+            "id" : 1,
+            "title": "The Hitchcock Hotel",
+            "author": "Stephanie Wrobel",
+            "genre": "Psychological Thriller",
+            "rating": 4.2,
+            "image": "https://m.media-amazon.com/images/I/51+q6kmHx9L._SX327_BO1,204,203,200_.jpg"
+        },
+        {
+            "id" : 2,
+            "title": "We're Alone",
+            "author": "Edwidge Danticat",
+            "genre": "Essay Collection",
+            "rating": 4.5,
+            "image": "https://m.media-amazon.com/images/I/41ChF6FQYpL._SX331_BO1,204,203,200_.jpg"
+        },
+        {
+            "id" : 3,
+            "title": "The Third Gilmore Girl",
+            "author": "Kelly Bishop",
+            "genre": "Memoir",
+            "rating": 4.6,
+            "image": "https://m.media-amazon.com/images/I/41+J6Ye+0jL._SX331_BO1,204,203,200_.jpg"
+        },
+        {
+            "id" : 4,
+            "title": "Here One Moment",
+            "author": "Liane Moriarty",
+            "genre": "Fiction",
+            "rating": 4.3,
+            "image": "https://m.media-amazon.com/images/I/51CV5Yz05sL._SX331_BO1,204,203,200_.jpg"
+        },
+        {
+            "id" : 5,
+            "title": "Entitlement",
+            "author": "Rumaan Alam",
+            "genre": "Literary Fiction",
+            "rating": 4.1,
+            "image": "https://m.media-amazon.com/images/I/41YDDcM+gNL._SX331_BO1,204,203,200_.jpg"
+        },
+        {
+            "id" : 6,
+            "title": "So Thirsty",
+            "author": "Rachel Harrison",
+            "genre": "Thriller",
+            "rating": 4.0,
+            "image": "https://m.media-amazon.com/images/I/41g9+IQrVPL._SX331_BO1,204,203,200_.jpg"
+        },
+        {
+            "id" : 7,
+            "title": "Where They Last Saw Her",
+            "author": "Marcie R. Rendon",
+            "genre": "Mystery",
+            "rating": 4.4,
+            "image": "https://m.media-amazon.com/images/I/41boeC14YbL._SX331_BO1,204,203,200_.jpg"
+        },
+        {
+            "id" : 8,
+            "title": "William",
+            "author": "Mason Coile",
+            "genre": "Science Fiction",
+            "rating": 4.3,
+            "image": "https://m.media-amazon.com/images/I/41s2yMLThML._SX331_BO1,204,203,200_.jpg"
+        }
+    ]        
+}

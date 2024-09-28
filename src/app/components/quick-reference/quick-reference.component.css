@@ -1,0 +1,38 @@
+.accordion {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  
+  .panel {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .panel:last-child {
+    border-bottom: none;
+  }
+  
+  .panel-header {
+    padding: 15px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .panel-header:hover {
+    background-color: #eaeaea;
+  }
+  
+  .panel-body {
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  .palindrome-template{
+    padding: 20px;
+  }
