@@ -17,6 +17,10 @@
                 <li *ngFor="let book of filteredBooks" class="typeahead-item"> {{book.title}}</li>
             </ul>
         </div>
+        <div class="search">
+            <input [formControl]="weather_search" autocomplete="off" placeholder="Enter city or zipcode">
+            <button name="getWeather"> Get Weather</button>
+        </div>
         <div class="quick-reference">
             <h3> Quick Referece</h3>
             <app-quick-reference></app-quick-reference>
